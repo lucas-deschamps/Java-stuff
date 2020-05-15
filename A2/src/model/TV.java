@@ -139,7 +139,7 @@ public class TV {
 					" Não é possível mudar o canal.";
 		}
 		
-		if (this.ligada && this.canal != canal) {
+		if (this.canal != canal) {
 			if (canal >= 1 && canal <= 70) {
 				this.canal = canal;
 				return "TV " + this.fabricante + " " + this.tamanhoTela + " polegadas " + this.localizacao + " mudou para o canal " + this.canal + ".";
